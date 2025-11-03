@@ -121,8 +121,9 @@ Format: `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​`
 A contact can have any number of tags (including 0)
 </div>
 
-**WARNING**: Email does not check for domains like .com because of unique organisations
-
+<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+Email does not check for domains like .com because of unique organisations
+</div>
 
 Example:
 
@@ -369,7 +370,9 @@ A warning will pop up, where you can type `clear confirm` to confirm the deletio
 
 ![clearWarning](images/clearWarning.png)
 
-**WARNING**: Deletes all contact details. Data cannot be retrieved after you clear and exit the app.
+<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+Deletes all contact details. Data cannot be retrieved after you clear and exit the app.
+</div>
 
 Format: `clear confirm`
 
